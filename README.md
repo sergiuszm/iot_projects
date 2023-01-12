@@ -95,6 +95,9 @@ One of the units after three months outside and under the snow:
 ![729.jpg](prototypes/cae_fipy/IMG_0729.jpg)
 ![730.jpg](prototypes/cae_fipy/IMG_0730.jpg)
 
+Node schematic:
+![schematic.png](prototypes/cae_fipy/schematic.png)
+
 ## LoRaLitE Nodes
 
 More information about LoRaLitE motivation, idea, and the project itself should be available as soon as MASCOTS 2022 proceedings are published in IEEE. 
