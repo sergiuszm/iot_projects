@@ -13,28 +13,40 @@ More information about the project can be found here:
 
 ## Camera Observation Unit
 
-We tried to create MCU-based, movement-triggered observation unit. The prototype consisted of a microcontroller, serial camera, rtc, uSD card, and motion sensor. MCU used: ESP8266 (running micropython), Arduino Pro  Mini, and STM32L476 (running mbed os, pictures below).
+We tried to create MCU-based, movement-triggered observation unit. The prototype consisted of a microcontroller, serial camera, rtc, uSD card, motion sensor, and wifi module. MCU used: ESP8266 (running micropython), Arduino Pro  Mini, and STM32L476 (running mbed os, pictures below).
 
 Source code:
 - [github](https://github.com/sergiuszm/stm32l476rg_ucam)
 
 ![1229.jpg](prototypes/serial_cameras_stm32/IMG_1229.jpg)
+![1160.jpg](prototypes/serial_cameras_stm32/IMG_1160.JPG)
 
 ## Insects Trap
 
-Control unit for UV LED strip (that were supposed to attract insects). The LED strip could be enabled/disabled based on the value from photoresistor or remotely via LoRa message from placed a few hunder metters away RPi3B.
+Control unit for UV LED strip (that were supposed to attract insects). The LED strip could be enabled/disabled based on the value from photoresistor or remotely via LoRa message.
 
 LED basked was build by Ken-Arne. The basked can be seen in the video posted in the next section.
 
 Source code:
 - [github](https://github.com/sergiuszm/insects_trap)
 
+![1304.jpg](prototypes/insects_trap_control_unit/IMG_1304.JPG)
+![1324.jpg](prototypes/insects_trap_control_unit/IMG_1324.JPG)
 ![1362.jpg](prototypes/insects_trap_control_unit/IMG_1362.JPG)
 ![20170914_152535.jpg](prototypes/insects_trap_control_unit/IMG_20170914_152535.jpg)
 
-## Ni-Mh batteries and special electrical grid
+## EmGO - offloading tasks in BIGLittle architecture (BIG: RPi3B, Little: STM32L476RG)
 
-Evaluation of an idea where battery pack in placed on a special grid for easy replacement. The pack can be replaced by UAV. We used special rechargable batteries (Ni-Mh Panasonic BK-1100FHU) that should maintain the advertised capacity even in a cold temperature.
+A quick look at the BIGLittle architecture. We experimented with interfaces between Go and EmGO. We used a benchmark to compare computacional speed between boards and the speed of data passing routine - part of the benchmark was running on stm32 board.
+
+More information can be found in the publication:
+- [Publication 2: CSP at the Cyber-Physical Edge](https://ebooks.iospress.nl/volumearticle/51254)
+
+![1760.jpg](prototypes/emgo/IMG_1760.jpeg)
+
+## Ni-Mh batteries and special electrical pad
+
+Evaluation of an idea where battery pack in placed on a special pad for easy replacement. The pack can be replaced by UAV. We used special rechargable batteries (Ni-Mh Panasonic BK-1100FHU) that should maintain the advertised capacity even in a cold temperature.
 
 Battery pack was designed and built by Ken-Arne.
 
@@ -44,7 +56,7 @@ Video with the presentation of the idea (drone, insects trap, battery): [youtube
 ![365.jpg](prototypes/cold_resistant_battery_experiments/IMG_0365.jpg)
 ![366.jpg](prototypes/cold_resistant_battery_experiments/IMG_0366.jpg)
 
-## Basketball Unit
+## "Basketball" Unit
 
 Observation Unit build together with other PhD students: Roberth and Mike.
 
