@@ -34,6 +34,7 @@ Source code:
 ![1324.jpg](prototypes/insects_trap_control_unit/IMG_1324.JPG)
 ![1362.jpg](prototypes/insects_trap_control_unit/IMG_1362.JPG)
 ![20170914_152535.jpg](prototypes/insects_trap_control_unit/IMG_20170914_152535.jpg)
+![783.jpg](prototypes/insects_trap_control_unit/IMG_0783.jpg)
 
 ## EmGO - offloading tasks in BIGLittle architecture (BIG: RPi3B, Little: STM32L476RG)
 
