@@ -101,13 +101,11 @@ Node schematic:
 
 ## LoRaLitE Nodes
 
-More information about LoRaLitE motivation, idea, and the project itself should be available as soon as MASCOTS 2022 proceedings are published in IEEE. 
-
 Publication title: LoRaLitE: LoRa protocol for Energy-Limited environments
 
 Authors: Lukasz Sergiusz Michalik, Loic Guegan, Issam Raïs, Otto Anshus and John Markus Bjørndalen
 
-DOI (does not work yet): 10.1109/MASCOTS56607.2022.00018
+DOI: [10.1109/MASCOTS56607.2022.00018](https://doi.org/10.1109/MASCOTS56607.2022.00018)
 
 Real node data vs simulation results:
 ![742.jpg](prototypes/loralite_nodes/IMG_0742.jpg)
